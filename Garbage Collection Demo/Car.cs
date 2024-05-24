@@ -7,6 +7,7 @@ namespace Garbage_Collection_Demo
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public int MyProperty { get; set; }
 
         private Car[] EligibleLicenseNumbers { get; set; }
 
